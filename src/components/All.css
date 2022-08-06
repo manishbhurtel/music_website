@@ -1,5 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Grenze+Gotisch&family=Hubballi&family=Inter:wght@500&family=Lato&family=Manrope:wght@300&family=Open+Sans&family=Poppins:wght@200;300&family=Quicksand&family=Roboto:wght@300;400&family=Sansita+Swashed:wght@300&family=Work+Sans:wght@300&display=swap');
+
+
+:root{
+    --text-color: rgb(73, 73, 73);
+    --btn-bg-color: rgb(255, 51, 51);
+    --white-text-color: rgb(237, 237, 237);
+}
+
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
