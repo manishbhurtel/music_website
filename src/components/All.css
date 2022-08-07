@@ -2,12 +2,14 @@
 
 
 :root{
-    --text-color: rgb(73, 73, 73);
+    --text-color: rgb(87, 87, 87);
     --btn-bg-color: rgb(255, 51, 51);
     --white-text-color: rgb(237, 237, 237);
     --nav-height: 70px;
 }
-
+body{
+    overflow-x: hidden;
+}
 *{
     margin:0;
     padding:0;

@@ -1,6 +1,6 @@
 
 .body1_container{
-    height: calc(100vh - var(--nav-height));
+    min-height: calc(100vh - var(--nav-height));
     width:100vw;
     background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5)),url("../../../images/bg.jpg");
     background-position: center;
