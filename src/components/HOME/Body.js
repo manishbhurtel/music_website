@@ -17,8 +17,14 @@ function Body() {
                 para4= "WHAT YOU EXPECT FROM US"
                 para5 = "We will provide you world's most popular music instruments that you can try and carry on your hobbies and create very fluent music. Checking and buying our musical products, you will never dissatisfy yourself."
             />
-            <Body3 />
-            <Body4 />
+            <Body3 
+                para6 = "Who we are"
+                para7 = "Many people are interested in creating their career in music, so we are those who wants to help to pursue their career and their goals."
+                para8 = "We are officially located in Pokhara, Nepal. We provide platforms for users to sell and buy their musical instruments so that world moves to new music reality."
+            />
+            <Body4 
+                para9 = "What we do"
+            />
             <Footer />
         </>
     )

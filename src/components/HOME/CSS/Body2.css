@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding-left: 2rem;
+    padding-bottom:2rem;
 }
 
 .b2-btn1 {
@@ -50,21 +50,16 @@
 @media (max-width:1070px) {
     .body2_container {
         flex-direction: column-reverse;
+        justify-content: center;
     }
 
     .manImg {
-        height: 38rem; 
+        height: 38rem;
         width: 30rem;
     }
 
     .textarea {
         text-align: center;
-    }
-}
-
-@media (max-width:530px) {
-    .body2_container {
-        padding: 0;
     }
 }
 
@@ -84,6 +79,5 @@
 
     .b2-btn1 {
         margin-top: 2rem;
-        margin-bottom: 2rem;
     }
 }

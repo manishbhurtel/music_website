@@ -1,0 +1,24 @@
+.card{
+    height: 13rem;
+    width: 16.4rem;
+    border:none;
+    outline:none;
+    background-color: rgb(250, 250, 250);
+    box-shadow: 10px 10px 20px rgb(196, 196, 196);
+    border-radius: 0.08rem;
+    text-align: center;
+    padding-top:2rem;
+    color: var(--text-color);
+    margin:2rem;
+    cursor: pointer;
+}
+.cardIMG{
+    transform: scale(1.05);
+}
+.para10{
+    font-size: 1.8rem;
+    margin-top: 0.6rem;
+}
+.para11{
+    margin-top: 0.7rem;
+}

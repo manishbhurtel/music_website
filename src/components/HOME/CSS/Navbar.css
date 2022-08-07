@@ -1,7 +1,7 @@
 .nav_container {
     height: var(--nav-height);
     width: 100vw;
-    background-color: rgb(237, 237, 237);
+    background-color: rgb(228, 228, 228);
     display: flex;
     justify-content: space-evenly;
     align-items: center;

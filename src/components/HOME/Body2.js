@@ -10,9 +10,9 @@ function Body2(props) {
         <div className="textarea">
           <p className='para4'>{props.para4}</p>
           <p className='para5'>{props.para5}</p>
-          <button className = "b2-btn1">See More</button>
+          <button className="b2-btn1">See More</button>
         </div>
-        <img src={manLOGO} alt="manImg" className='manImg'/>
+        <img src={manLOGO} alt="manImg" className='manImg' />
       </div>
     </>
   )

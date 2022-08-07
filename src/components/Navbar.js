@@ -37,7 +37,7 @@ function Navbar() {
             <li><button className='btn1'><a href='mailto:manishbhurtel668@gmail.com'>Contact</a></button></li>
           </ul>
         </div>
-        <i class={`fa-solid fa-bars ${logo}`} onClick={burgerCLicked}></i>
+        <i className={`fa-solid fa-bars ${logo}`} onClick={burgerCLicked}></i>
       </div>
     </>
   )
