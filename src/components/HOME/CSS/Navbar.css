@@ -1,97 +1,108 @@
-.nav_container{
-    height: 80px;
-    width:100vw;
+
+.nav_container {
+    height: var(--nav-height);
+    width: 100vw;
     background-color: rgb(237, 237, 237);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-.links ul{
+
+.links ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    gap:4rem;
+    gap: 4rem;
 }
-.links ul li{
+
+.links ul li {
     font-size: 1.2rem;
     font-weight: bold;
     color: var(--text-color);
     list-style: none;
     cursor: pointer;
 }
-.btn1{
+
+.btn1 {
     height: 2.8rem;
-    width:8rem;
+    width: 8rem;
     border-radius: 0.2rem;
     background-color: var(--btn-bg-color);
     color: white;
-    border:none;
-    outline:none;
+    border: none;
+    outline: none;
     font-size: 1.1rem;
 }
-.btn1 a{
+
+.btn1 a {
     text-decoration: none;
-    color:white;
+    color: white;
 }
 
-.fa-bars{
+.fa-bars {
     display: none;
     font-size: 1.9rem;
     cursor: pointer;
 }
 
 
-.links{
+.links {
     animation: slideIN 0.2s ease;
     transform: translateY(0%);
 }
 
 
 @media (max-width:1170px) {
-    .hidden{
+    .hidden {
         display: none;
     }
-    .links{
-        z-index:100;
+
+    .links {
+        z-index: 100;
         background-color: white !important;
-        height: calc(100vh - 80px);
-        width:100vw;
+        height: calc(100vh - var(--nav-height));
+        width: 100vw;
         position: absolute;
-        top: 80px;
-        left:0;
-        
+        top: var(--nav-height);
+        left: 0;
     }
+
     @keyframes slideIN {
-        0%{
+        0% {
             transform: translateY(-100%);
         }
-        100%{
+
+        100% {
             transform: translateY(0);
         }
     }
-    .links ul{
-        height: calc(100vh - 80px);
-        width:100vw;
+
+    .links ul {
+        height: calc(100vh - var(--nav-height));
+        width: 100vw;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
-    .nav_container{
+
+    .nav_container {
         justify-content: space-between;
-        padding:0 5rem 0 5rem;
+        padding: 0 5rem 0 5rem;
         position: relative;
     }
-    .fa-bars{
+
+    .fa-bars {
         display: block;
     }
 }
 
 
 @media (max-width: 600px) {
-    .navImg{
+    .navImg {
         transform: scale(0.8);
     }
-    .nav_container{
+
+    .nav_container {
         display: flex;
         padding: 0 1rem 0 0rem;
     }

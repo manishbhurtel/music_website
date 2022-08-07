@@ -13,7 +13,10 @@ function Body() {
                 para2="Love is the music"
                 para3="Discover 10 million+ musical instruments from different parts of world with different culture. Create love of music across the globe."
             />
-            <Body2 />
+            <Body2 
+                para4= "WHAT YOU EXPECT FROM US"
+                para5 = "We will provide you world's most popular music instruments that you can try and carry on your hobbies and create very fluent music. Checking and buying our musical products, you will never dissatisfy yourself."
+            />
             <Body3 />
             <Body4 />
             <Footer />
