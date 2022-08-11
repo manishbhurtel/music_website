@@ -2,7 +2,7 @@
     min-height: 50vh;
     width: 100vw;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     color: var(--white-text-color);
     flex-wrap: wrap;
@@ -13,22 +13,20 @@
     background-color: rgb(57, 57, 57);
     width: 100vw;
     padding-bottom:1rem;
+
 }
 .main_content{
     width:66rem;
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
-}
-.footerImg{
-    margin: auto;
-    display: block;
 }
 .ul-1 {
     display: flex;
     justify-content: center;
     gap: 1.3rem;
     align-items: center;
-    width: 20rem;
+    width: 18rem;
     height: 5rem;
     font-size: 1.1rem;
 }
@@ -43,7 +41,7 @@
     justify-content: center;
     flex-direction: column;
     gap: 1.3rem;
-    width:12rem;
+    width:8rem;
     height: 12rem;
     margin:2rem;
 }

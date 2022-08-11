@@ -14,9 +14,13 @@
     height: 3rem;
     width: 6rem;
     font-size: 1.2rem;
-    color: var(--white-text-color);
+    color:white;
     border-radius: 0.2rem;
     cursor: pointer;
+}
+
+.b2-btn1:hover{
+    background-color: rgb(255, 71, 71);
 }
 
 .textarea {

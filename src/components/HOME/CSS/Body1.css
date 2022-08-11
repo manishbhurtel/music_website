@@ -19,7 +19,6 @@
 }
 .b1-btn1 , .b1-btn2{
     background-color: var(--btn-bg-color);
-    color: var(--white-text-color);
     height: 3rem;
     width:10rem;
     font-size: 1.2rem;
@@ -28,6 +27,16 @@
     outline:none;
     margin:3rem;
     cursor: pointer;
+}
+
+.b1-btn1:hover , .b1-btn2:hover{
+    background-color: rgb(255, 71, 71);
+}
+
+.b1-btn1 a , .b1-btn2 a{
+    text-decoration: none;
+    list-style: none;
+    color: var(--white-text-color);
 }
 .para1{
     font-size: 3rem;
@@ -45,5 +54,8 @@
     }
     .b1-btn1{
         margin-top:3rem;
+    }
+    .body1_container{
+        padding-right: 1.2rem;
     }
 }

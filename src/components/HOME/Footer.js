@@ -1,14 +1,14 @@
 import React from 'react'
 import '../HOME/CSS/Footer.css'
 import '../../.././src/components/All.css'
-import footerLOGO from '../../../src/images/logo.png'
+
 
 function Footer() {
   return (
     <>
       <div className="wrapIT">
         <div className="footer_container">
-          
+
           <ul className="ul-1">
             <li className="fText">Follow Us: </li>
             <li><i className="fa-brands fa-facebook"></i></li>
@@ -47,11 +47,9 @@ function Footer() {
               <li>Canada</li>
               <li>Japan</li>
             </ul>
+
           </div>
         </div>
-
-
-        <img src={footerLOGO} alt="oops" className='footerImg' />
       </div>
     </>
   )

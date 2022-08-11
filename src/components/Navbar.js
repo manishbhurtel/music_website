@@ -19,6 +19,7 @@ function Navbar() {
     else {
       setlogo("fa-solid");
     }
+    document.body.classList.toggle("overflow");
   }
   return (
     <>
