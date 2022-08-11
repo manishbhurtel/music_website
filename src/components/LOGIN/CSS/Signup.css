@@ -30,6 +30,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    padding-right:1rem;
 }
 
 .wrap_content {
@@ -62,13 +63,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 6rem;
+    gap: 3rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
 
 .email,
-.password {
+.password ,
+.name
+{
     border: none;
     outline: none;
     background: transparent;
@@ -102,7 +105,11 @@
     text-decoration: none;
     cursor: pointer;
 }
-
+.ch{
+    cursor: pointer;
+    height: 1rem;
+    width:1rem;
+}
 .sign {
     background-color: var(--btn-bg-color);
     border: none;
@@ -129,8 +136,15 @@
     text-decoration: none;
     color: white;
 }
-
-
+.ch1 , .ch2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:0.5rem;
+}
+.log_para1 , .log_para2{
+    font-size: 0.8rem;
+}
 @media (max-width: 730px) {
     .sign_container {
         padding-top: 2rem;
@@ -177,7 +191,9 @@
     }
 
     .email,
-    .password {
+    .password,
+    .name
+     {
         width: 14rem;
     }
 }

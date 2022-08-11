@@ -10,7 +10,7 @@ function Login(props) {
 
                 <div className="login_content">
                     <Link to="/"><i class="fa-solid fa-circle-left"></i></Link>
-                    <p className="loginIMG">@World Music</p>
+                    {/* <p className="loginIMG">@World Music</p> */}
                     <div className="wrap_content">
                         <div className="contentsL">
                             <p className='para12'>{props.para12}</p>
