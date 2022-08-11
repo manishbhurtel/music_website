@@ -10,7 +10,7 @@ function Signup(props) {
             <div className="sign_container">
 
                 <div className="sign_content">
-                    <Link to="/Login"><a><i class="fa-solid fa-circle-left"></i></a></Link>
+                    <Link to="/Login"><i class="fa-solid fa-circle-left"></i></Link>
                     <p className="loginIMG">@World Music</p>
                     <div className="wrap_content">
                         <div className="contentsL">
@@ -27,7 +27,7 @@ function Signup(props) {
                     <input type="submit" placeholder='Login' className='login' />
                     <div className="signin">
                         <p className="para20">Already have an account?</p>
-                        <p className="para21"><Link to="/Login"><a>Login</a></Link></p>
+                        <p className="para21"><Link to="/Login">Login</Link></p>
                     </div>
                 </div>
 
