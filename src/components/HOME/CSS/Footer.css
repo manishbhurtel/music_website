@@ -28,12 +28,17 @@
     align-items: center;
     width: 18rem;
     height: 5rem;
+}
+.ul-1 li{
+    list-style: none;
+    cursor: pointer;
     font-size: 1.1rem;
 }
 
-.ul-1 li ,.ul-2 li, .ul-3 li, .ul-4 li, .ul-5 li, .ul-6 li{
+.ul-2 li, .ul-3 li, .ul-4 li, .ul-5 li, .ul-6 li{
     list-style: none;
     cursor: pointer;
+    font-size: 0.8rem;
 }
 
 .ul-2 , .ul-3 , .ul-4 , .ul-5 , .ul-6{

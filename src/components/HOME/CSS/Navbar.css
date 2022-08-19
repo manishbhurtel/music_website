@@ -21,6 +21,9 @@
     list-style: none;
     cursor: pointer;
 }
+.links ul li:hover{
+    color: rgb(206, 149, 68);
+}
 .overflow{
     overflow-y: hidden;
 }
@@ -46,7 +49,9 @@
     cursor: pointer;
 }
 
-
+.links ul li Link{
+    text-decoration: none;
+}
 .links {
     animation: slideIN 0.2s ease;
     transform: translateY(0%);

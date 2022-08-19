@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useState }from 'react'
+import {Link} from 'react-router-dom'
 import '../components/HOME/CSS/Navbar.css'
 import '../components/All.css'
 import navLOGO from '../images/logo.png'
@@ -34,7 +35,7 @@ function Navbar() {
             <li>PRODUCTS</li>
             <li>SERVICES</li>
             <li>ABOUT</li>
-            <li>SUBSCRIBE</li>
+            <Link to = "/Subscribe" style={{textDecoration: "none"}}><li>SUBSCRIBE</li></Link>
             <li><button className='btn1'><a href='mailto:manishbhurtel668@gmail.com'>Contact</a></button></li>
           </ul>
         </div>

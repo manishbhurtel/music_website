@@ -10,7 +10,7 @@ function Signup(props) {
             <div className="sign_container">
 
                 <div className="sign_content">
-                    <Link to="/Login"><i class="fa-solid fa-circle-left"></i></Link>
+                    <Link to="/Login"><i className="fa-solid fa-circle-left"></i></Link>
                     {/* <p className="loginIMG">@World Music</p> */}
                     <div className="wrap_content">
                         <div className="contentsL">
